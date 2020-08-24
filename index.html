@@ -7,8 +7,9 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" crossorigin="anonymous">
-    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="styles.css">
     <title>Hello, world!</title>
+    <script src="script.js"></script>
   </head>
   <body>
     <header class="sticky-top">
@@ -21,16 +22,16 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home</a>
+              <a class="nav-link scroll-link" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link scroll-link" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Services</a>
+              <a class="nav-link" href="#services">Services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Methods</a>
+              <a class="nav-link" href="#methods">Methods</a>
             </li>
           </ul>
         </div>
@@ -39,20 +40,20 @@
     <main>
 
       <!-- hero section -->
-      <section class="hero pt-5 pb-5">
-        <div class="container">
-        <h1 class="display-1">Designing exceptional customer experiences since 2009.</h1>
+      <section class="py-5">
+        <div class="container-fluid">
+        <h1 class="display-4">Designing exceptional customer experiences since 2009.</h1>
         <p class="lead">I deliver essential and long-term results by improving the experience of the users.</p>
-        <div>
-        <a href="#" class="btn btn-primary">Primary</a>
+        <div class="text-center">
+        <a href="#clients" class="btn btn-primary text">Primary</a>
       </div>
         </div>
       </section>
 
       <!-- clients section -->
-      <section>
-        <div class="py-5 container text-center">
-          <h3 class="pb-5 display-4">Trusted by the World’s Best Companies</h3>
+      <section class="py-5">
+        <div class="container text-center">
+          <h3 class="pb-5">Trusted by the World’s Best Companies</h3>
           <div class="row justify-content-center">
             <div class="pb-3 pr-3">
               <img src="https://via.placeholder.com/100" alt="client logo">
@@ -75,27 +76,26 @@
           </div>
         </div>
       </section>
+      
 
       <!-- Experience section -->
-      <section>
-        <div class="container py-5">
-          <div class="row">
-            <div class="col-lg-6">
-              <h2 class="display-2 pb-4">Experience</h2>
-              <p class="lead pb-5">Since 2009, I have been part of dozens of projects and helped a multitude of companies build exceptional customer experiences for millions of users. 
-
-                As a result, I have extensive knowledge of how to fulfil the business needs of both product and marketing departments by enhancing the user experience. </p>
-            </div>
-            <div class="col-lg-6">
-              <img src="https://via.placeholder.com/500" alt="">
-            </div>
-          </div>
+      <section class="py-5" id="about">
+        <div class="container-fluid">
+          <div class="row justify-content-center">
+            <div class="col-sm-12">
+          <h2 class="display-4 pb-3">Experience</h2>
+          <p class="lead pb-5">Since 2009, I have been part of dozens of projects and helped a multitude of companies build exceptional customer experiences for millions of users. As a result, I have extensive knowledge of how to fulfil the business needs of both product and marketing departments by enhancing the user experience. </p>
         </div>
+        <div class="">
+          <img src="https://via.placeholder.com/280" alt="">
+        </div>
+        </div>
+      </div>
       </section>
 
       <!-- testimonial -->
-      <section>
-        <div class="container py-5 text-center">
+      <section class="py-5">
+        <div class="container-fluid text-center">
           <blockquote class="blockquote">
             <p class="pb-4">"I got to know Steven as a very ingenious UI-concepter and an amazingly fast visual designer. Also he is a great guy to have in the team."</p>
             <img src="https://via.placeholder.com/100" alt="" class="pb-4">
@@ -105,9 +105,9 @@
       </section>
 
       <!-- What I do section  -->
-      <section>
-        <div class="container py-5">
-          <h2 class="display-2 pb-4">What I do</h2>
+      <section class="py-5" id="services">
+        <div class="container-fluid py-5">
+          <h2 class="display-4 pb-4">What I do</h2>
           <div class="row">
             <div class="col-md-6 lead">
               <ul>
@@ -124,8 +124,8 @@
       </section>
 
        <!-- testimonial -->
-       <section>
-        <div class="container py-5 text-center">
+       <section class="py-5">
+        <div class="container-fluid text-center">
           <blockquote class="blockquote">
             <p class="pb-4">"Steven was a great addition to our team. He is a seasoned designer with a good eye for effective design solutions. He always delivered high quality work on time and all his concepts were well thought through. It was a pleasure to work with him."</p>
             <img src="https://via.placeholder.com/100" alt="" class="pb-4">
@@ -135,30 +135,30 @@
       </section>
 
       <!-- Method -->
-      <section>
-        <div class="py-5 container text-center">
-          <h2 class="pb-4 display-2">My method.</h2>
+      <section class="py-5" id="methods">
+        <div class="container text-center">
+          <h2 class="pb-4 display-4">My method.</h2>
             <p class="lead pb-5">After nearly 20 years of design expertise, I have refined a results-driven design methodology to iteratively improve the experience of customers.</p>
           <div class="row justify-content-center">
-            <div class="col-md-3 pb-5">
+            <div class="col-sm-6 col-lg-3 pb-5">
               <img src="https://via.placeholder.com/100" alt="client logo" class="pb-4">
-              <h3>Discover</h3>
+              <p>Discover</p>
               <p>Understand your business and users to uncover breakthrough insights.</p>
             </div>
-            <div class="col-md-3 pb-5">
+            <div class="col-sm-6 col-lg-3 pb-5">
               <img src="https://via.placeholder.com/100" alt="client logo" class="pb-4">
-              <h3>Ideate</h3>
+              <p>Ideate</p>
               <p>Explore insights to form and prioritize a strategic plan to impact objectives</p>
             </div>
-            <div class="col-md-3 pb-5">
+            <div class="col-sm-6 col-lg-3 pb-5">
               <img src="https://via.placeholder.com/100" alt="client logo" class="pb-4">
-              <h3>Create</h3>
+              <p>Create</p>
               <p>Create
                 Implement the plan through digital and physical design / development solutions</p>
             </div>
-            <div class="col-md-3">
+            <div class="col-sm-6 col-lg-3">
               <img src="https://via.placeholder.com/100" alt="client logo" class="pb-4">
-              <h3>Validate</h3>
+              <p>Validate</p>
               <p>Gather user feedback to test the effectiveness of the solutions and iterate</p>
             </div>
           </div>
@@ -166,11 +166,10 @@
       </section>
 
       <!-- Recognition section -->
-      <section>
-        <div class="py-5 container text-center">
+      <section class="py-5">
+        <div class="py-2 container-fluid text-center">
           <h3 class="pb-5 display-4">Recognition.</h3>
           <p class="lead">Steven’s' work has earned recognition around the world, including some of the few listed below.</p>
-
           <div class="row justify-content-center">
             <div class="pb-3 pr-3">
               <img src="https://via.placeholder.com/100" alt="client logo">
@@ -195,8 +194,8 @@
       </section>
       
       <!-- testimonial -->
-       <section>
-        <div class="container py-5 text-center">
+       <section class="py-5">
+        <div class="container-fluid py-5 text-center">
           <blockquote class="blockquote">
             <p class="pb-4">"Incredible work building the Micro Services Site, leading to great brand recognition and value for our team. Showed entrepreneurial spirit and drive."</p>
             <img src="https://via.placeholder.com/100" alt="" class="pb-4">
