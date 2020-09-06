@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,400&display=swap');
+
+html, body {
+	font-family: 'Roboto', sans-serif;
+	height: 100%;
+	width: 100%;
+	color: #212529;
+}
+
 .testimonial-image {
 	width: 6rem;
     height: 6rem;
@@ -27,15 +36,28 @@
 /* Hero section  */
 .hero {
 	background-color: #E94949;
+	background-image: url(img/hero-title-1.svg);
+	background-size: 33rem;
+	background-repeat: no-repeat;
+	background-position: right 0px bottom 0px;
+}
+
+.hero-image {
+	padding-bottom: 9rem;
 }
 
 /* nav */
+.nav {
+	font-weight: 700;
+	font-size: 4.4rem;
+}
 .navbar {
 	background-color: #E94949;
 }
 .nav-link {
 	color: #212529;
 	display: inline-block;
+	padding: 0 .5rem;
 }
 
 .nav-link:hover {
