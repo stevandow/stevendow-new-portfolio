@@ -24,14 +24,30 @@
 	}
 }
 
+/* Hero section  */
 .hero {
 	background-color: #E94949;
-	height: 600px;
 }
 
-.hero-header{
+/* nav */
+.navbar {
+	background-color: #E94949;
+}
+.nav-link {
+	color: #212529;
+	display: inline-block;
+}
+
+.nav-link:hover {
 	color: #ffffff;
-	font-size: 20rem;
-	font-weight: 500;
-	position: relative;
+	background-color: #212529;
+  }
+
+.active {
+	color: #ffffff;
+	background-color: #212529;
+}
+
+.text-red {
+	color: #E94949;
 }

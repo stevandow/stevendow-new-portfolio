@@ -12,41 +12,39 @@
     <script src="script.js"></script>
   </head>
   <body>
-    <header class="sticky-top">
-      <nav class="navbar navbar-expand-md navbar-light bg-transparent scrolling-navbar">
+    <header>
+      <nav class="navbar">
         <a class="navbar-brand mx-auto" href="#"><img src="img/logo.png"></a>
       </nav>
     </header>
     <main>
 
       <!-- hero section -->
-      <section class="py-5 hero">
-        <div class="container">
-          <div class="">
-            <ul class="navbar-nav ml-auto display-4">
-              <li class="nav-item active">
-                <a class="nav-link scroll-link" href="who">Who</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link scroll-link" href="#about">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#work">Work</a>
-              </li>
-            </ul>
-          </div>
+      <section class="hero">
+        <div class="container py-5">
+          <ul class="nav flex-column display-4 font-weight-bold pb-5">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Who<span class="text-red">.</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">What.</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Work.</a>
+            </li>
+          </ul>
+            <img src="img/hero-image.png" class="img-fluid">
         </div>
-        <div class="hero-header display-4 text-right fixed-bottom">
-          <p>Who.</p>
-        </div>
+        <img src="img/hero-title-1.svg" class="img-fluid"> 
       </section>
 
 <!-- intro section -->
 <section class="py-5">
   <div class="container">
-    <div class="col-6">
+    <div>
       <p class="lead">Steven A. R. Dow.</p>
-      <h1 class="display-4 text-right">Product Designer.</h1>
+      <h1 class="display-4 pb-3 font-weight-bold">Product Designer<span class="text-red">.</span></h1>
+      <p>I'm a Product Designer with more than 20 years of design experience.</br></br>I partner with teams around the globe on design engagements ranging from single app design to enterprise-scale implementation, creating unique customer experiences for millions of users.</p>
     </div>
   </div>
 </section>
