@@ -23,3 +23,15 @@
 		scroll-behavior: auto;
 	}
 }
+
+.hero {
+	background-color: #E94949;
+	height: 600px;
+}
+
+.hero-header{
+	color: #ffffff;
+	font-size: 20rem;
+	font-weight: 500;
+	position: relative;
+}
