@@ -37,13 +37,13 @@ html, body {
 .hero {
 	background-color: #E94949;
 	background-image: url(img/hero-title-1.svg);
-	background-size: 33rem;
+	background-size: 22.5rem;
 	background-repeat: no-repeat;
-	background-position: right 0px bottom 0px;
+	background-position: right 0px bottom -1px;
 }
 
 .hero-image {
-	padding-bottom: 9rem;
+	padding-bottom: 5.5rem;
 }
 
 /* nav */
