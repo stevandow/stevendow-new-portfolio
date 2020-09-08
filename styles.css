@@ -7,10 +7,80 @@ html, body {
 	color: #212529;
 }
 
+p {
+	font-size: 1.25rem;
+}
+
+/* nav */
+.nav {
+	font-weight: 700;
+	font-size: 4.4rem;
+	line-height: 1;
+}
+.navbar {
+	background-color: #E94949;
+}
+.nav-link {
+	color: #212529;
+	display: inline-block;
+	padding: 0 .5rem;
+}
+
+.nav-link:hover {
+	color: #ffffff;
+	background-color: #212529;
+  }
+
+.active {
+	color: #ffffff;
+	background-color: #212529;
+}
+
+/* Hero section  */
+.hero {
+	background-color: #E94949;
+	background-image: url(img/hero-title-1.svg);
+	background-size: 22.5rem;
+	background-repeat: no-repeat;
+	background-position: right 0px bottom -1px;
+}
+
+.portrait {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+/* blockquote */
+blockquote p {
+	font-size: 1rem;
+}
+
+.blockquote-footer {
+	color: #212529;
+	font-size: 1rem;
+}
+
+.blockquote-footer::before {
+	display: none;
+}
+
+/* headings */
+.text-red {
+	color: #E94949;
+}
+.display-4, .display-3, .display-2 {
+	line-height: 1;
+}
+
+.lead {
+	font-size: 1.4rem;
+	line-height: .4;
+}
+
+/* images */
 .testimonial-image {
 	width: 6rem;
     height: 6rem;
-    border-radius: 50%;
 }
 
 .client-logo {
@@ -33,43 +103,5 @@ html, body {
 	}
 }
 
-/* Hero section  */
-.hero {
-	background-color: #E94949;
-	background-image: url(img/hero-title-1.svg);
-	background-size: 22.5rem;
-	background-repeat: no-repeat;
-	background-position: right 0px bottom -1px;
-}
 
-.hero-image {
-	padding-bottom: 5.5rem;
-}
 
-/* nav */
-.nav {
-	font-weight: 700;
-	font-size: 4.4rem;
-}
-.navbar {
-	background-color: #E94949;
-}
-.nav-link {
-	color: #212529;
-	display: inline-block;
-	padding: 0 .5rem;
-}
-
-.nav-link:hover {
-	color: #ffffff;
-	background-color: #212529;
-  }
-
-.active {
-	color: #ffffff;
-	background-color: #212529;
-}
-
-.text-red {
-	color: #E94949;
-}
