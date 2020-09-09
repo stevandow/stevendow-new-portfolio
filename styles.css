@@ -11,6 +11,9 @@ p {
 	font-size: 1.25rem;
 }
 
+.intro {
+	z-index: 2;
+}
 /* nav */
 .nav {
 	font-weight: 700;
@@ -62,6 +65,12 @@ blockquote p {
 
 .blockquote-footer::before {
 	display: none;
+}
+
+.quote-image {
+	z-index: 1;
+	margin-top: -50px;
+	margin-left: -10px;
 }
 
 /* headings */
