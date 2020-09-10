@@ -7,6 +7,10 @@ html, body {
 	color: #212529;
 }
 
+a {
+	color: #212529;
+}
+
 p {
 	font-size: 1.25rem;
 }
@@ -48,9 +52,9 @@ p {
 	background-position: right 0px bottom -1px;
 }
 
-.portrait {
-	padding-left: 5px;
-	padding-right: 5px;
+.margin-0 {
+	padding-left: 0px;
+	padding-right: 0px;
 }
 
 /* blockquote */
@@ -94,6 +98,13 @@ blockquote p {
 
 .client-logo {
     width: 250px;
+}
+ footer {
+	 background-color: #F1F5F5;
+ }
+
+footer li {
+	list-style: none;
 }
 
 /**
