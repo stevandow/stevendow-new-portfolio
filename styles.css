@@ -11,7 +11,11 @@ a {
 	color: #212529;
 }
 
-p {
+a:hover {
+	color: #E94949;;
+}
+
+p, a {
 	font-size: 1.25rem;
 }
 
@@ -19,10 +23,10 @@ p {
 	z-index: 2;
 }
 /* nav */
-.nav {
+.nav a {
 	font-weight: 700;
 	font-size: 4.4rem;
-	line-height: 1;
+	line-height: 1.1;
 }
 .navbar {
 	background-color: #E94949;
@@ -65,6 +69,7 @@ blockquote p {
 .blockquote-footer {
 	color: #212529;
 	font-size: 1rem;
+	line-height: 1.5;
 }
 
 .blockquote-footer::before {
@@ -105,6 +110,20 @@ blockquote p {
 
 footer li {
 	list-style: none;
+}
+
+footer a {
+	text-decoration: underline;
+
+}
+
+footer ul {
+	margin: 0;
+}
+
+.footer-text {
+	font-size: .9rem;
+	padding-top: .5rem;
 }
 
 /**
