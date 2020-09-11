@@ -23,10 +23,16 @@ p, a {
 	z-index: 2;
 }
 /* nav */
+
+.nav {
+	padding-left: 15px;
+}
+
 .nav a {
 	font-weight: 700;
 	font-size: 4.4rem;
 	line-height: 1.1;
+
 }
 .navbar {
 	background-color: #E94949;
@@ -55,6 +61,15 @@ p, a {
 	background-repeat: no-repeat;
 	background-position: right 0px bottom -1px;
 }
+
+.hero-image {
+	padding-bottom: 2.5rem;
+}
+
+.hero {
+	background-size: 110%;
+}
+
 
 .margin-0 {
 	padding-left: 0px;
@@ -141,3 +156,30 @@ footer ul {
 		scroll-behavior: auto;
 	}
 }
+
+/* // Extra small devices (portrait phones, less than 576px) */
+/* // No media query for `xs` since this is the default in Bootstrap */
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 375px) {
+	.hero-image {
+		padding-bottom: 3.5rem;
+	}
+}
+
+@media (min-width: 414px) {
+	.hero-image {
+		padding-bottom: 4rem;
+	}
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { ... }
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { ... }
