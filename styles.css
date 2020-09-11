@@ -18,10 +18,11 @@ a:hover {
 p, a {
 	font-size: 1.25rem;
 }
-
+/* Intro  */
 .intro {
 	z-index: 2;
 }
+
 /* nav */
 
 .nav {
@@ -55,21 +56,19 @@ p, a {
 
 /* Hero section  */
 .hero {
-	background-color: #E94949;
 	background-image: url(img/hero-title-1.svg);
 	background-size: 22.5rem;
 	background-repeat: no-repeat;
 	background-position: right 0px bottom -1px;
 }
 
+.background-red {
+	background-color: #E94949;
+}
+
 .hero-image {
 	padding-bottom: 2.5rem;
 }
-
-.hero {
-	background-size: 110%;
-}
-
 
 .margin-0 {
 	padding-left: 0px;
@@ -77,10 +76,6 @@ p, a {
 }
 
 /* blockquote */
-blockquote p {
-	font-size: 1rem;
-}
-
 .blockquote-footer {
 	color: #212529;
 	font-size: 1rem;
@@ -165,21 +160,41 @@ footer ul {
 	.hero-image {
 		padding-bottom: 3.5rem;
 	}
+	.hero {
+		background-size: 26rem;
+	}
 }
 
 @media (min-width: 414px) {
 	.hero-image {
 		padding-bottom: 4rem;
 	}
+	.hero {
+		background-size: 27rem;
+	}
 }
 
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-
+	.hero-image {
+		padding-bottom: 9rem;
+	}
+	.hero {
+		background-size: 51rem;
+	}
+	.card {
+		padding-left: 1rem;
+		border: none;
+	}
 }
 
 /* // Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { ... }
+@media (min-width: 992px) { 
+}
 
 /* // Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { ... }
+@media (min-width: 1200px) { 
+	.hero {
+		background-size: 60rem;
+	}
+ }
