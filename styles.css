@@ -57,7 +57,7 @@ p, a {
 /* Hero section  */
 .hero {
 	background-image: url(img/hero-title-1.svg);
-	background-size: 22.5rem;
+	background-size: 22rem;
 	background-repeat: no-repeat;
 	background-position: right 0px bottom -1px;
 }
@@ -118,6 +118,9 @@ p, a {
 	 background-color: #F1F5F5;
  }
 
+ footer p {
+	 margin-bottom: 0;
+ }
 footer li {
 	list-style: none;
 }
@@ -170,7 +173,7 @@ footer ul {
 		padding-bottom: 4rem;
 	}
 	.hero {
-		background-size: 27rem;
+		background-size: 28rem;
 	}
 }
 
@@ -180,7 +183,7 @@ footer ul {
 		padding-bottom: 9rem;
 	}
 	.hero {
-		background-size: 51rem;
+		background-size: 52rem;
 	}
 	.card {
 		padding-left: 1rem;
