@@ -18,6 +18,15 @@ a:hover {
 p, a {
 	font-size: 1.25rem;
 }
+
+.display-4 {
+	line-height: 1.1;
+}
+
+.display-3 {
+	line-height: 1;
+}
+
 /* Intro  */
 .intro {
 	z-index: 2;
@@ -35,13 +44,12 @@ p, a {
 	line-height: 1.1;
 
 }
-.navbar {
-	background-color: #E94949;
-}
+
 .nav-link {
 	color: #212529;
 	display: inline-block;
 	padding: 0 .5rem;
+	margin-bottom: .6rem;
 }
 
 .nav-link:hover {
@@ -62,8 +70,30 @@ p, a {
 	background-position: right 0px bottom -1px;
 }
 
+.what {
+	background-image: url(img/what.svg);
+	background-size: 22rem;
+	background-repeat: no-repeat;
+	background-position: right 0px bottom -1px;
+}
+
+.work {
+	background-image: url(img/work.svg);
+	background-size: 22rem;
+	background-repeat: no-repeat;
+	background-position: right 0px bottom -1px;
+}
+
 .background-red {
 	background-color: #E94949;
+}
+
+.background-green {
+	background-color: #18CB68;
+}
+
+.background-blue {
+	background-color: #499CE9;
 }
 
 .hero-image {
@@ -96,8 +126,13 @@ p, a {
 .text-red {
 	color: #E94949;
 }
-.display-4, .display-3, .display-2 {
-	line-height: 1;
+
+.text-green {
+	color: #18CB68;
+}
+
+.text-blue {
+	color: #499CE9;
 }
 
 .lead {
