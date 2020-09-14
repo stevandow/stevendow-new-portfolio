@@ -12,7 +12,7 @@ a {
 }
 
 a:hover {
-	color: #E94949;;
+	color: #E94949;
 }
 
 p, a {
@@ -61,6 +61,47 @@ p, a {
 	color: #ffffff;
 	background-color: #212529;
 }
+
+/* Dark mode */
+.dark-mode {
+	background-color: #212529;
+	color: #ffffff;
+  }
+
+.dark-mode .background-red{
+	background-color: #212529;
+}
+
+.dark-mode footer{
+	background-color: #212529;
+}
+
+.dark-mode .nav-link {
+	color: #ffffff;
+	display: inline-block;
+	padding: 0 .5rem;
+	margin-bottom: .6rem;
+}
+
+.dark-mode .active {
+	color: #ffffff;
+	background-color: #E94949;
+}
+
+.dark-mode .nav-link:hover {
+	color: #ffffff;
+	background-color: #E94949;
+  }
+
+.dark-mode .text-red {
+	color: #ffffff;
+}
+
+.dark-mode a {
+		color: #E94949;
+	}	
+}
+
 
 /* Hero section  */
 .hero {
@@ -167,7 +208,6 @@ footer li {
 
 footer a {
 	text-decoration: underline;
-
 }
 
 footer ul {
@@ -177,6 +217,11 @@ footer ul {
 .footer-text {
 	font-size: .9rem;
 	padding-top: .5rem;
+}
+
+/* Dark Mode */
+@media (prefers-color-scheme: dark) {
+
 }
 
 /**
