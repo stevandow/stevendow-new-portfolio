@@ -25,6 +25,15 @@ img {
 	opacity: 100%;
 }
 
+svg {
+	color: #212529;
+}
+
+svg:hover {
+	color: #ffffff;
+	transition: .2s ease-in-out;
+}
+
 .display-4 {
 	line-height: 1.1;
 }
@@ -71,64 +80,79 @@ img {
 
 
 /* Dark mode */
-.dark-mode .logo {
-	color: #ffffff;
-}
 
 .dark-mode {
 	background-color: #212529;
-	color: #ffffff;
+	opacity: 80%;
 	transition: .3s ease-in-out;
-  }
-
-.dark-mode img {
-	opacity: 75%;
-	transition: .3s ease-in-out;
-	}
 }
 
-.dark-mode-toggle:hover {
+.dark-mode p {
+	color: #ffffff90;
+	transition: .3s ease-in-out;
+}
+
+.dark-mode h1 {
+	color: #ffffff90;
+	transition: .3s ease-in-out;
+}
+
+/* .dark-mode-toggle:hover {
 	color: #ffffff;
 	transition: .2s ease-in-out;
-}
+} */
 
-.dark-mode .background-red{
+.dark-mode header {
 	background-color: #212529;
 	transition: .3s ease-in-out;
+	color: #ffffff;
+}
+
+.dark-mode svg {
+	color: #ffffff;
+}
+
+.dark-mode svg:hover {
+	color: #ffffff90;
+	transition: .2s ease-in-out;
 }
 
 .dark-mode footer{
 	background-color: #212529;
 }
 
-.dark-mode .nav-link {
+.dark-mode a {
+	color: #ffffff90;
+}
+
+.dark-mode a:hover {
+	color: #E94949;
+	transition: .3s ease-in-out;
+}
+
+.dark-mode h2 {
+	color: #ffffff90;
+}
+
+.dark-mode .active .text-red {
 	color: #ffffff;
-	display: inline-block;
-	padding: 0 .5rem;
-	margin-bottom: .6rem;
 }
 
 .dark-mode .active {
 	color: #ffffff;
 	background-color: #E94949;
+	transition: .3s ease-in-out;
 }
 
 .dark-mode .nav-link:hover {
 	color: #ffffff;
 	background-color: #E94949;
 	transition: .3s ease-in-out;
-
-  }
-
-.dark-mode .text-red {
-	color: #ffffff;
 }
 
-.dark-mode a {
-		color: #E94949;
-	}	
+.dark-mode .card {
+	background-color: transparent;
 }
-
 
 /* Hero section  */
 .hero {
