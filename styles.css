@@ -64,21 +64,21 @@ p, a {
 
 /* Hero section  */
 .hero {
-	background-image: url(img/who.svg);
+	background-image: url(img/hero/who.svg);
 	background-size: 22rem;
 	background-repeat: no-repeat;
 	background-position: right 0px bottom -1px;
 }
 
 .what {
-	background-image: url(img/what.svg);
+	background-image: url(img/hero/what.svg);
 	background-size: 22rem;
 	background-repeat: no-repeat;
 	background-position: right 0px bottom -1px;
 }
 
 .work {
-	background-image: url(img/work.svg);
+	background-image: url(img/hero/work.svg);
 	background-size: 22rem;
 	background-repeat: no-repeat;
 	background-position: right 0px bottom -1px;
