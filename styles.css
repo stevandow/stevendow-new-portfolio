@@ -64,7 +64,7 @@ p, a {
 
 /* Hero section  */
 .hero {
-	background-image: url(img/hero-title-1.svg);
+	background-image: url(img/who.svg);
 	background-size: 22rem;
 	background-repeat: no-repeat;
 	background-position: right 0px bottom -1px;
@@ -103,6 +103,11 @@ p, a {
 .margin-0 {
 	padding-left: 0px;
 	padding-right: 0px;
+}
+
+.padding {
+	padding-right: 0px;
+	padding-left: 0px;
 }
 
 /* blockquote */
@@ -198,7 +203,7 @@ footer ul {
 	.hero-image {
 		padding-bottom: 3.5rem;
 	}
-	.hero {
+	.hero, .what, .work {
 		background-size: 26rem;
 	}
 }
@@ -207,7 +212,7 @@ footer ul {
 	.hero-image {
 		padding-bottom: 4rem;
 	}
-	.hero {
+	.hero, .what, .work {
 		background-size: 28rem;
 	}
 }
@@ -217,7 +222,7 @@ footer ul {
 	.hero-image {
 		padding-bottom: 9rem;
 	}
-	.hero {
+	.hero, .what, .work {
 		background-size: 52rem;
 	}
 	.card {
@@ -232,7 +237,7 @@ footer ul {
 
 /* // Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
-	.hero {
+	.hero, .what, .work {
 		background-size: 60rem;
 	}
  }
