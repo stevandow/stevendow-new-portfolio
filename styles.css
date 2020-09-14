@@ -5,6 +5,7 @@ html, body {
 	height: 100%;
 	width: 100%;
 	color: #212529;
+	transition: .3s ease-in-out;
 }
 
 a {
@@ -13,10 +14,15 @@ a {
 
 a:hover {
 	color: #E94949;
+	transition: .2s ease-in-out;
 }
 
 p, a {
 	font-size: 1.25rem;
+}
+
+img {
+	opacity: 100%;
 }
 
 .display-4 {
@@ -55,6 +61,7 @@ p, a {
 .nav-link:hover {
 	color: #ffffff;
 	background-color: #212529;
+	transition: .3s ease-in-out;
   }
 
 .active {
@@ -62,14 +69,32 @@ p, a {
 	background-color: #212529;
 }
 
+
 /* Dark mode */
+.dark-mode .logo {
+	color: #ffffff;
+}
+
 .dark-mode {
 	background-color: #212529;
 	color: #ffffff;
+	transition: .3s ease-in-out;
   }
+
+.dark-mode img {
+	opacity: 75%;
+	transition: .3s ease-in-out;
+	}
+}
+
+.dark-mode-toggle:hover {
+	color: #ffffff;
+	transition: .2s ease-in-out;
+}
 
 .dark-mode .background-red{
 	background-color: #212529;
+	transition: .3s ease-in-out;
 }
 
 .dark-mode footer{
@@ -91,6 +116,8 @@ p, a {
 .dark-mode .nav-link:hover {
 	color: #ffffff;
 	background-color: #E94949;
+	transition: .3s ease-in-out;
+
   }
 
 .dark-mode .text-red {
