@@ -81,7 +81,7 @@ svg:hover {
 
 /* Dark mode */
 
-.dark-mode {
+/* .dark-mode {
 	background-color: #212529;
 	opacity: 80%;
 	transition: .3s ease-in-out;
@@ -95,14 +95,14 @@ svg:hover {
 .dark-mode h1 {
 	color: #ffffff90;
 	transition: .3s ease-in-out;
-}
+} */
 
 /* .dark-mode-toggle:hover {
 	color: #ffffff;
 	transition: .2s ease-in-out;
 } */
 
-.dark-mode header {
+/* .dark-mode header {
 	background-color: #212529;
 	transition: .3s ease-in-out;
 	color: #ffffff;
@@ -152,7 +152,7 @@ svg:hover {
 
 .dark-mode .card {
 	background-color: transparent;
-}
+} */
 
 /* Hero section  */
 .hero {
