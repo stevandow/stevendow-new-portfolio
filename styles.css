@@ -271,25 +271,25 @@ footer ul {
 }
 
 /* Dark Mode */
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
 
-}
+} */
 
 /**
  * Enable smooth scrolling on the whole document
  */
- html {
+ /* html {
 	scroll-behavior: smooth;
-}
+} */
 
 /**
  * Disable smooth scrolling when users have prefers-reduced-motion enabled
  */
- @media screen and (prefers-reduced-motion: reduce) {
+ /* @media screen and (prefers-reduced-motion: reduce) {
 	html {
 		scroll-behavior: auto;
 	}
-}
+} */
 
 /* // Extra small devices (portrait phones, less than 576px) */
 /* // No media query for `xs` since this is the default in Bootstrap */
