@@ -177,15 +177,15 @@ svg:hover {
 }
 
 .background-red {
-	background-color: #d44343;
+	background-color: #E94949;
 }
 
 .background-green {
-	background-color: #13a153;
+	background-color: #18CB68;
 }
 
 .background-blue {
-	background-color: #3f86c9;
+	background-color: #499CE9;
 }
 
 .hero-image {
@@ -221,15 +221,15 @@ svg:hover {
 
 /* headings */
 .text-red {
-	color: #d44343;
+	color: #E94949;
 }
 
 .text-green {
-	color: #13a153;
+	color: #18CB68;
 }
 
 .text-blue {
-	color: #3f86c9;
+	color: #499CE9;
 }
 
 .lead {
