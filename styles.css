@@ -34,6 +34,16 @@ svg:hover {
 	transition: .2s ease-in-out;
 }
 
+::-moz-selection { /* Code for Firefox */
+	color: #ffffff;
+	background: #E94949;
+  }
+  
+  ::selection {
+	color: #ffffff;
+	background: #E94949;
+  }
+
 .display-4 {
 	line-height: 1.1;
 }
