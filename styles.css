@@ -198,8 +198,13 @@ svg:hover {
 	background-color: #499CE9;
 }
 
-.hero-image {
+/* Hero image  */
+.image-pading {
 	padding-bottom: 2.5rem;
+}
+
+.image-border {
+	border: 10px solid #ffffff; 
 }
 
 .margin-0 {
@@ -306,7 +311,7 @@ footer ul {
 
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 375px) {
-	.hero-image {
+	.image-padding {
 		padding-bottom: 3.5rem;
 	}
 	.hero, .what, .work {
@@ -315,7 +320,7 @@ footer ul {
 }
 
 @media (min-width: 414px) {
-	.hero-image {
+	.image-padding {
 		padding-bottom: 4rem;
 	}
 	.hero, .what, .work {
@@ -325,7 +330,7 @@ footer ul {
 
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-	.hero-image {
+	.image-padding {
 		padding-bottom: 9rem;
 	}
 	.hero, .what, .work {
