@@ -198,12 +198,8 @@ svg:hover {
 	background-color: #499CE9;
 }
 
-.padding-bottom {
-	padding-bottom: 2.5rem;
-}
-
 .hero-image {
-	border: 10px solid #ffffff;
+	padding-bottom: 2.5rem;
 }
 
 .margin-0 {
@@ -310,7 +306,7 @@ footer ul {
 
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 375px) {
-	.padding-bottom {
+	.hero-image {
 		padding-bottom: 3.5rem;
 	}
 	.hero, .what, .work {
@@ -319,7 +315,7 @@ footer ul {
 }
 
 @media (min-width: 414px) {
-	.padding-bottom {
+	.hero-image {
 		padding-bottom: 4rem;
 	}
 	.hero, .what, .work {
@@ -329,7 +325,7 @@ footer ul {
 
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-	.padding-bottom {
+	.hero-image {
 		padding-bottom: 9rem;
 	}
 	.hero, .what, .work {
