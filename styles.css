@@ -81,95 +81,21 @@ img {
 
 /* Scroll to top button  */
 
-#btn {
+#back-to-top {
 	display: none;
 	position: fixed; /* Fixed/sticky position */
-  	bottom: 60px; /* Place the button at the bottom of the page */
-  	right: 20px; /* Place the button 30px from the right */
-  	z-index: 99; /* Make sure it does not overlap */
-  	border: none; /* Remove borders */
-  	outline: none; /* Remove outline */
-  	background-color: transparent; /* Set a background color */
+	bottom: 20px; /* Place the button at the bottom of the page */
+	right: 30px; /* Place the button 30px from the right */
+	z-index: 99; /* Make sure it does not overlap */
+	border: none; /* Remove borders */
+	outline: none; /* Remove outline */
+	background-color: transparent; /* Set a background color */
 	color: #212529; /* Text color */
 	cursor: pointer; /* Add a mouse pointer on hover */
-  	border-radius: none; /* Rounded corners */
-}
-
-
-/* Dark mode */
-
-/* .dark-mode {
-	background-color: #212529;
-	opacity: 80%;
-	transition: .3s ease-in-out;
-}
-
-.dark-mode p {
-	color: #ffffff90;
-	transition: .3s ease-in-out;
-}
-
-.dark-mode h1 {
-	color: #ffffff90;
-	transition: .3s ease-in-out;
-} */
-
-/* .dark-mode-toggle:hover {
-	color: #ffffff;
-	transition: .2s ease-in-out;
-} */
-
-/* .dark-mode header {
-	background-color: #212529;
-	transition: .3s ease-in-out;
-	color: #ffffff;
-}
-
-.dark-mode svg {
-	color: #ffffff;
-}
-
-.dark-mode svg:hover {
-	color: #ffffff90;
-	transition: .2s ease-in-out;
-}
-
-.dark-mode footer{
-	background-color: #212529;
-}
-
-.dark-mode a {
-	color: #ffffff90;
-}
-
-.dark-mode a:hover {
-	color: #E94949;
-	transition: .3s ease-in-out;
-}
-
-.dark-mode h2 {
-	color: #ffffff90;
-}
-
-.dark-mode .active .text-red {
-	color: #ffffff;
-}
-
-.dark-mode .active {
-	color: #ffffff;
-	background-color: #E94949;
-	transition: .3s ease-in-out;
-}
-
-.dark-mode .nav-link:hover {
-	color: #ffffff;
-	background-color: #E94949;
-	transition: .3s ease-in-out;
-}
-
-.dark-mode .card {
-	background-color: transparent;
-} */
+	padding: 0; /* Some padding */
+	border-radius: 0; /* Rounded corners */
+  }
+  
 
 /* Hero section  */
 .hero {
