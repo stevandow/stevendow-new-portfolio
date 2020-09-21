@@ -79,6 +79,18 @@ img {
 	background-color: #212529;
 }
 
+/* Scroll to top button  */
+
+#btn {
+	position: fixed;
+	bottom: 30px;
+	right: 10px;
+	border: none;
+	background: transparent;
+	color: #212529;
+	display: none;
+}
+
 
 /* Dark mode */
 
