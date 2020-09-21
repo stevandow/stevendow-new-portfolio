@@ -82,13 +82,17 @@ img {
 /* Scroll to top button  */
 
 #btn {
-	position: fixed;
-	bottom: 30px;
-	right: 10px;
-	border: none;
-	background: transparent;
-	color: #212529;
 	display: none;
+	position: fixed; /* Fixed/sticky position */
+  	bottom: 60px; /* Place the button at the bottom of the page */
+  	right: 20px; /* Place the button 30px from the right */
+  	z-index: 99; /* Make sure it does not overlap */
+  	border: none; /* Remove borders */
+  	outline: none; /* Remove outline */
+  	background-color: transparent; /* Set a background color */
+	color: #212529; /* Text color */
+	cursor: pointer; /* Add a mouse pointer on hover */
+  	border-radius: none; /* Rounded corners */
 }
 
 
