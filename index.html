@@ -14,31 +14,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
   <!-- Bootstrap CSS -->
- <!-- Latest compiled and minified CSS -->
- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-
- <!-- jQuery library -->
- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
- 
- <!-- Popper JS -->
- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
- 
- <!-- Latest compiled JavaScript -->
- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>   <!-- stylesheet -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>   
+  <script src="script.js"></script>
+  <!-- stylesheet -->
   <link rel="stylesheet" href="styles.css">
-  <title>Steven Dow, Senior Product Designer.</title>
+  <title>Steven A. R. Dow, Product Designer.</title>
 </head>
-
 <body>
   <!-- header -->
   <header class="background-red">
     <nav class="navbar">
       <a class="navbar-brand mx-auto" href="#"><img src="img/logo.svg" alt="Logo of Steven Dow"></a>
-      <!-- <a onclick="myFunction()" href="#"> -->
-        <!-- <svg width="2rem" height="2em" viewBox="0 0 16 16" class="bi bi-moon" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-          <path fill-rule="evenodd" d="M14.53 10.53a7 7 0 0 1-9.058-9.058A7.003 7.003 0 0 0 8 15a7.002 7.002 0 0 0 6.53-4.47z"/>
-        </svg> -->
-        <!-- </a> -->
       </nav>
       <!-- hero section -->
       <section class="hero py-5">
@@ -206,24 +195,26 @@
           </div>
         </div>
       </section>
-      <div>
-        <a id="back-to-top" href="#" class="btn btn-light btn-lg back-to-top" role="button">
-          <svg width="3em" height="3em" viewBox="0 0 16 16" class="bi bi-arrow-up-circle-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+
+      <!-- Back to top -->
+        <button id="back-to-top" href="#" class="back-to-top" type="button">
+          <span class="back-to-top__content" tabindex="-1">
+            <svg width="3em" height="3em" viewBox="0 0 16 16" class="bi bi-arrow-up-circle-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
             <path fill-rule="evenodd" d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
           </svg>
-        </a>
-      </div>     
+        </span>
+      </button>
+
       <!-- Footer -->
       <footer class="py-5">
         <div class="container">
           <div class=" row">
             <h2 class="pb-3 display-4 font-weight-bold col-md-4">
-              Say<br>hello
-              <span class="text-red">.</span>
-            </h2>  
+              Say<br>hello<span class="text-red">.</span>
+            </h2>
             <ul class="col-md-4">
               <li>
-                <a href="mailto:thefamousunknown@gmail.com?subject=Nice%20website&body=Hi%20Steven,%20Let's%20grab%20a%20coffee.">info@stevendow.nl</a>
+                  <a href="mailto:thefamousunknown@gmail.com?subject=Nice%20website&body=Hi%20Steven,%20Let's%20grab%20a%20coffee.">info@stevendow.nl</a>
                 <span class="sr-only">Opens mail application</span>
               </li>
               <li>
@@ -266,23 +257,5 @@
         </div>
       </footer>
     </main>
-    <script>
-      $(document).ready(function(){
-	$(window).scroll(function () {
-			if ($(this).scrollTop() > 50) {
-				$('#back-to-top').fadeIn();
-			} else {
-				$('#back-to-top').fadeOut();
-			}
-		});
-		// scroll body to 0px on click
-		$('#back-to-top').click(function () {
-			$('body,html').animate({
-				scrollTop: 0
-			}, 400);
-			return false;
-		});
-});
-    </script>
   </body>
 </html>
