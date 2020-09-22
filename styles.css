@@ -49,6 +49,10 @@ img {
 	z-index: 2;
 }
 
+.portrait {
+	padding: .5rem;
+}
+
 /* nav */
 
 .nav {
@@ -144,12 +148,8 @@ img {
 }
 
 /* Hero image  */
-.image-pading {
-	padding-bottom: 2.5rem;
-}
-
 .image-border {
-	border: 10px solid #ffffff; 
+	border: 9px solid #ffffff; 
 }
 
 .margin-0 {
@@ -254,7 +254,7 @@ footer ul {
 
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-	.image-padding {
+	.hero-image {
 		padding-bottom: 9rem;
 	}
 	.hero, .what, .work {
