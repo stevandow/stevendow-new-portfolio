@@ -1,9 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap'); 
 
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: 0;
+}
+
 html, body {
 	font-family: 'Roboto', sans-serif;
-	height: 100%;
-	width: 100%;
 	color: #212529;
 	transition: .3s ease-in-out;
 }
@@ -47,6 +51,10 @@ img {
 /* Intro  */
 .intro {
 	z-index: 2;
+}
+
+.portrait {
+	padding: .5rem;
 }
 
 /* nav */
@@ -144,12 +152,8 @@ img {
 }
 
 /* Hero image  */
-.image-pading {
-	padding-bottom: 2.5rem;
-}
-
 .image-border {
-	border: 10px solid #ffffff; 
+	border: 9px solid #ffffff; 
 }
 
 .margin-0 {
@@ -235,7 +239,7 @@ footer ul {
 
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 375px) {
-	.image-padding {
+	.hero-image {
 		padding-bottom: 3.5rem;
 	}
 	.hero, .what, .work {
@@ -244,7 +248,7 @@ footer ul {
 }
 
 @media (min-width: 414px) {
-	.image-padding {
+	.hero-image {
 		padding-bottom: 4rem;
 	}
 	.hero, .what, .work {
@@ -254,7 +258,7 @@ footer ul {
 
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-	.image-padding {
+	.hero-image {
 		padding-bottom: 9rem;
 	}
 	.hero, .what, .work {

@@ -44,8 +44,10 @@
                 <a class="nav-link" href="work.html">Work.</a>
               </li>
             </ul>
-            <div class="col-sm-6 col-md-6 col-lg-4 image-padding">
-              <img src="img/hero/hero-img-1.jpg" alt="Illustration of Steven Dow" class="img-fluid image-border">
+            <div class="col-sm-7 col-lg-5 col-xl-4 hero-image">
+              <img src="img/hero/hero-img-1.jpg" alt="Illustration of Steven Dow" 
+              srcset="img/hero/hero-img-1.jpg 1000w, img/hero/hero-img-1-small.jpg 500w"
+              class="img-fluid image-border">
             </div>
           </div>
         </div>
@@ -74,14 +76,20 @@
             </div>
           </div>
           <div class="row pb-3">
-            <div class="col-sm-4 pb-4">
-              <img src="img/hero/hero-img-1.jpg" alt="portrait 1" class="img-fluid ">
+            <div class="col-sm-4 portrait">
+              <img src="img/hero/hero-img-1.jpg" 
+              srcset="img/hero/hero-img-1.jpg 2x, img/hero/hero-img-1-small.jpg 1x"
+              alt="portrait 1" class="img-fluid">
             </div>
-            <div class="col-sm-4 pb-4">
-              <img src="img/hero/hero-img-2.jpg" alt="portrait 2" class="img-fluid ">
+            <div class="col-sm-4 portrait">
+              <img src="img/hero/hero-img-2.jpg" 
+              srcset="img/hero/hero-img-2.jpg 2x, img/hero/hero-img-2-small.jpg 1x"
+              alt="portrait 2" class="img-fluid">
             </div>
-            <div class="col-sm-4">
-              <img src="img/hero/hero-img-3.jpg" alt="portrait 3" class="img-fluid ">
+            <div class="col-sm-4 portrait">
+              <img src="img/hero/hero-img-3.jpg" 
+              srcset="img/hero/hero-img-3.jpg 2x, img/hero/hero-img-3-small.jpg 1x"
+              alt="portrait 3" class="img-fluid">
             </div>
           </div>
           <div class="row justify-content-end pt-2">
@@ -257,5 +265,6 @@
         </div>
       </footer>
     </main>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
   </body>
 </html>
