@@ -234,37 +234,6 @@ footer ul {
 	padding-top: .5rem;
 }
 
-/* Animations  */
-
-#navbar {
-	animation: slideInDown; /* referring directly to the animation's @keyframe declaration */
-	animation-duration: 1s; /* don't forget to set a duration! */
-	animation-delay: 2s;
-}
-
-#nav-item1 {
-	animation: fadeInLeft; /* referring directly to the animation's @keyframe declaration */
-	animation-duration: 1s; /* don't forget to set a duration! */
-	animation-delay: 2s;
-}
-
-#nav-item2 {
-	animation: fadeInLeft; /* referring directly to the animation's @keyframe declaration */
-	animation-duration: 1s; /* don't forget to set a duration! */
-	animation-delay: 2.1s;
-}
-
-#nav-item3 {
-	animation: fadeInLeft; /* referring directly to the animation's @keyframe declaration */
-	animation-duration: 1s; /* don't forget to set a duration! */
-	animation-delay: 2.2s;
-}
-#hero-image {
-	animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
-	animation-duration: 2s; /* don't forget to set a duration! */
-	animation-delay: 2.3s;
-}
-
 /* // Extra small devices (portrait phones, less than 576px) */
 /* // No media query for `xs` since this is the default in Bootstrap */
 
