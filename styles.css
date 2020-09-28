@@ -224,9 +224,7 @@ img {
 /* images */
 .testimonial-image {
 	width: 6rem;
-	height: 6rem;
-	filter: drop-shadow(8px 8px 0px #ECDD00);
-
+    height: 6rem;
 }
 
 .client-logo {
