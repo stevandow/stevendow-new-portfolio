@@ -48,6 +48,26 @@ img {
 	line-height: 1;
 }
 
+/* case-study  */
+.case-study {
+	height: 80vh;
+}
+
+.mobile {
+	position: relative;
+	top: 0;
+	left: 0;}
+
+.gif {
+	position: absolute;
+	top: 80px;
+	left: 50px;
+}
+
+.bg-color {
+	background-color: #D2E3F3;
+}
+
 /* Intro  */
 .intro {
 	z-index: 2;
@@ -81,7 +101,7 @@ img {
 	color: #ffffff;
 	background-color: #212529;
 	transition: .3s ease-in-out;
-  }
+}case
 
 .active {
 	color: #ffffff;
