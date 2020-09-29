@@ -50,22 +50,30 @@ img {
 
 /* case-study  */
 .case-study {
-	height: 80vh;
+	height: 74vh;
 }
 
-.mobile {
-	position: relative;
-	top: 0;
-	left: 0;}
-
-.gif {
-	position: absolute;
-	top: 80px;
-	left: 50px;
+.case-study, 
+.bg-img-mobile {
+	background-image: url(./img/case-study/mobile-1-large.png);
+	background-repeat: no-repeat;
+	background-position: right 425px top 0px;
+	background-size: 410px;
 }
 
-.bg-color {
-	background-color: #D2E3F3;
+.section-dark {
+	background-color: #212529;
+	color: #ffffff;
+}
+
+.section-light {
+	background-color: #c9d5e0;
+	color: #212529;
+}
+
+
+.case-study, .salesforce {
+	background-color: #21A0DF;
 }
 
 /* Intro  */
