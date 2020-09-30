@@ -48,19 +48,20 @@ img {
 	line-height: 1;
 }
 
+/* padding  */
+
+.pb-6 {
+	padding-bottom: 8.1rem;
+}
+
 /* case-study  */
-.case-study {
-	height: 74vh;
-}
-
-.case-study, 
-.bg-img-mobile {
-	background-image: url(./img/case-study/mobile-1-large.png);
+.case-study-hero-img-1 {
+	background-image: url(./img/case-study/case-study-1-hero-img.jpg);
 	background-repeat: no-repeat;
-	background-position: right 425px top 0px;
-	background-size: 410px;
+	background-size: cover;
 }
 
+/* sections */
 .section-dark {
 	background-color: #212529;
 	color: #ffffff;
@@ -71,9 +72,8 @@ img {
 	color: #212529;
 }
 
-
-.case-study, .salesforce {
-	background-color: #21A0DF;
+.section-grey {
+	background-color: #F6F6F6;
 }
 
 /* Intro  */
@@ -145,8 +145,12 @@ img {
   color: #499CE9;
 } 
 
-/* Hero section  */
+/* Hero */
 .hero {
+	height: 100vh;
+}
+
+.home {
 	background-image: url(img/hero/who.svg);
 	background-size: 22rem;
 	background-repeat: no-repeat;
@@ -179,19 +183,8 @@ img {
 	background-color: #499CE9;
 }
 
-/* Hero image  */
 .image-border {
 	border: 9px solid #ffffff; 
-}
-
-.margin-0 {
-	padding-left: 0px;
-	padding-right: 0px;
-}
-
-.padding {
-	padding-right: 0px;
-	padding-left: 0px;
 }
 
 /* blockquote */
@@ -267,30 +260,24 @@ footer ul {
 
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 375px) {
-	.hero-image {
-		padding-bottom: 3.5rem;
-	}
-	.hero, .what, .work {
-		background-size: 26rem;
+	.home, .what, .work {
+		background-size: 20rem;
 	}
 }
 
 @media (min-width: 414px) {
-	.hero-image {
-		padding-bottom: 4rem;
+	.home, .what, .work {
+		background-size: 41rem;
 	}
-	.hero, .what, .work {
-		background-size: 28rem;
+	.hero {
+		height: auto;
 	}
 }
 
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-	.hero-image {
-		padding-bottom: 9rem;
-	}
-	.hero, .what, .work {
-		background-size: 52rem;
+	.home, .what, .work {
+		background-size: 50rem;
 	}
 }
 
@@ -300,7 +287,10 @@ footer ul {
 
 /* // Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
-	.hero, .what, .work {
+	.home, .what, .work {
 		background-size: 60rem;
+	}
+	.hero {
+		height: 100vh;
 	}
  }
