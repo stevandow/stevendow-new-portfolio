@@ -51,7 +51,7 @@ img {
 /* padding  */
 
 .pb-6 {
-	padding-bottom: 8.1rem;
+	padding-bottom: 5.5rem;
 }
 
 /* case-study  */
@@ -146,27 +146,20 @@ img {
 } 
 
 /* Hero */
-.hero {
-	height: 100vh;
-}
-
 .home {
 	background-image: url(img/hero/who.svg);
-	background-size: 22rem;
 	background-repeat: no-repeat;
 	background-position: right 0px bottom -1px;
 }
 
 .what {
 	background-image: url(img/hero/what.svg);
-	background-size: 22rem;
 	background-repeat: no-repeat;
 	background-position: right 0px bottom -1px;
 }
 
 .work {
 	background-image: url(img/hero/work.svg);
-	background-size: 22rem;
 	background-repeat: no-repeat;
 	background-position: right 0px bottom -1px;
 }
@@ -231,14 +224,16 @@ img {
 .client-logo {
     width: 250px;
 }
+
  footer {
 	 background-color: #F1F5F5;
- }
+}
 
  footer p {
 	 margin-bottom: 0;
- }
-footer li {
+}
+
+ footer li {
 	list-style: none;
 }
 
@@ -261,16 +256,13 @@ footer ul {
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 375px) {
 	.home, .what, .work {
-		background-size: 20rem;
-	}
-	.display-2 {
-		font-size: 4.3rem;
+		background-size: 25rem;
 	}
 }
 
 @media (min-width: 414px) {
 	.home, .what, .work {
-		background-size: 41rem;
+		background-size: 25rem;
 	}
 	.hero {
 		height: auto;
@@ -280,20 +272,29 @@ footer ul {
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 	.home, .what, .work {
-		background-size: 50rem;
+		background-size: 45rem;
+	}
+	.hero {
+		height: 80vh;
 	}
 }
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
+	.home, .what, .work {
+		background-size: 50rem;
+	}
+	.hero {
+		height: 80vh;
+	}
 }
 
 /* // Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
 	.home, .what, .work {
-		background-size: 60rem;
+		background-size: 70rem;
 	}
 	.hero {
 		height: 100vh;
 	}
- }
+}
