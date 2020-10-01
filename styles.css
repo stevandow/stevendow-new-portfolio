@@ -263,6 +263,9 @@ footer ul {
 	.home, .what, .work {
 		background-size: 20rem;
 	}
+	.display-2 {
+		font-size: 4.3rem;
+	}
 }
 
 @media (min-width: 414px) {
