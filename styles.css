@@ -262,7 +262,7 @@ footer ul {
 
 @media (min-width: 414px) {
 	.home, .what, .work {
-		background-size: 25rem;
+		background-size: 35rem;
 	}
 	.hero {
 		height: auto;
@@ -272,7 +272,7 @@ footer ul {
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 	.home, .what, .work {
-		background-size: 45rem;
+		background-size: 40rem;
 	}
 	.hero {
 		height: 80vh;
@@ -282,7 +282,7 @@ footer ul {
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
 	.home, .what, .work {
-		background-size: 50rem;
+		background-size: 45rem;
 	}
 	.hero {
 		height: 80vh;
@@ -292,7 +292,7 @@ footer ul {
 /* // Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
 	.home, .what, .work {
-		background-size: 70rem;
+		background-size: 50rem;
 	}
 	.hero {
 		height: 100vh;
