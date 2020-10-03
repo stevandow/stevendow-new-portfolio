@@ -33,12 +33,12 @@ img {
 ::-moz-selection { /* Code for Firefox */
 	color: #ffffff;
 	background: #E94949;
-  }
-  
-  ::selection {
+}
+
+::selection {
 	color: #ffffff;
 	background: #E94949;
-  }
+}
 
 .display-4 {
 	line-height: 1.1;
@@ -56,7 +56,7 @@ img {
 
 /* case-study  */
 .case-study-hero-img-1 {
-	background-image: url(./img/case-study/case-study-1-hero-img.jpg);
+	background-image: url(./img/case-study/case-study-1-hero-img.webp);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -145,9 +145,9 @@ img {
 	outline: none;
 }
 
-.back-to-top:focus > .back-to-top__content  {
-  color: #499CE9;
-} 
+.back-to-top:focus > .back-to-top__content {
+	color: #499CE9;
+}
 
 /* Hero */
 .home {
@@ -229,15 +229,15 @@ img {
     width: 250px;
 }
 
- footer {
-	 background-color: #F1F5F5;
+footer {
+	background-color: #F1F5F5;
 }
 
- footer p {
-	 margin-bottom: 0;
+footer p {
+	margin-bottom: 0;
 }
 
- footer li {
+footer li {
 	list-style: none;
 }
 
