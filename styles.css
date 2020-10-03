@@ -76,6 +76,10 @@ img {
 	background-color: #F6F6F6;
 }
 
+.section-light-blue {
+	background-color: #F1F5F5;
+}
+
 /* Intro  */
 .intro {
 	z-index: 2;
