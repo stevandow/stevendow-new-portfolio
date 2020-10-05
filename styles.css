@@ -24,6 +24,7 @@ a:hover {
 
 p, a {
 	font-size: 1.25rem;
+	margin: 0;
 }
 
 ::-moz-selection { /* Code for Firefox */
@@ -45,8 +46,8 @@ h1 {
 	line-height: 1.2;
 }
 
-h2 {
-	line-height: 1;
+h3 {
+	line-height: 0.5;
 }
 
 /* case-study  */
@@ -138,6 +139,7 @@ h2 {
 
 .hero-bg-img-who {
 	background-image: url(./img/hero/hero-bg-img-who.svg);
+	display: non;
 }
 
 .hero-bg-img-what {
