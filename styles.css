@@ -26,10 +26,6 @@ p, a {
 	font-size: 1.25rem;
 }
 
-img {
-	opacity: 100%;
-}
-
 ::-moz-selection { /* Code for Firefox */
 	color: #ffffff;
 	background: #E94949;
@@ -40,11 +36,15 @@ img {
 	background: #E94949;
 }
 
-.display-4 {
+h1, h2, h3, h4 {
+	font-weight: 700;
+}
+
+h1 {
 	line-height: 1.1;
 }
 
-.display-3 {
+h2 {
 	line-height: 1;
 }
 
@@ -59,25 +59,6 @@ img {
 	background-image: url(./img/case-study/case-study-1-hero-img.webp);
 	background-repeat: no-repeat;
 	background-size: cover;
-}
-
-/* sections */
-.section-dark {
-	background-color: #212529;
-	color: #ffffff;
-}
-
-.section-light {
-	background-color: #c9d5e0;
-	color: #212529;
-}
-
-.section-grey {
-	background-color: #F6F6F6;
-}
-
-.section-light-blue {
-	background-color: #F1F5F5;
 }
 
 /* Intro  */
@@ -150,22 +131,26 @@ img {
 }
 
 /* Hero */
-.home {
-	background-image: url(img/hero/who.svg);
+.hero {
+	height: auto;
+	}
+
+.hero {
+	background-position: right -20px bottom -10px;
 	background-repeat: no-repeat;
-	background-position: right 0px bottom -1px;
+	background-size: 23rem;
 }
 
-.what {
-	background-image: url(img/hero/what.svg);
-	background-repeat: no-repeat;
-	background-position: right 0px bottom -1px;
+.hero-bg-img-who {
+	background-image: url(./img/hero/hero-bg-img-who.svg);
 }
 
-.work {
-	background-image: url(img/hero/work.svg);
-	background-repeat: no-repeat;
-	background-position: right 0px bottom -1px;
+.hero-bg-img-what {
+	background-image: url(img/hero/hero-bg-img-what.svg);
+}
+
+.hero-bg-img-work {
+	background-image: url(img/hero/hero-bg-img-work.svg);
 }
 
 .background-red {
@@ -216,7 +201,6 @@ img {
 
 .lead {
 	font-size: 1.4rem;
-	line-height: .4;
 }
 
 /* images */

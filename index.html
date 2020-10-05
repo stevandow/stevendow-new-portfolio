@@ -27,17 +27,18 @@
   </head>
   <body>
     <!-- header -->
-    <header class="background-red hero home">
+    <header class="background-red hero hero-bg-img-who">
       <nav class="navbar">
-        <a class="navbar-brand mx-auto" href="#"
-          ><img src="img/logo.svg" alt="Logo of Steven Dow"
+        <a class="navbar-brand mx-auto" href="#"><img src="img/logo.svg" alt="Logo of Steven Dow"
         /></a>
       </nav>
+      <!-- header end -->
+
       <!-- hero section -->
       <section class="py-5">
-        <div class="container pb-5">
-          <div class="row">
-            <ul class="nav flex-column col-sm-5 col-md-4 col-lg-3 col-xl-3 pb-4">
+        <div class="container">
+          <div class="row pb-5">
+            <ul class="nav flex-column col-sm-5 col-md-4 col-lg-3 col-xl-3 pb-2">
               <li class="nav-item">
                 <a class="nav-link active" href="#">Who<span class="text-red">.</span></a>
               </li>
@@ -48,8 +49,12 @@
                 <a class="nav-link" href="work.html">Work.</a>
               </li>
             </ul>
-            <div class="col-md-5 col-lg-4 col-xl-4 pb-5">
-              <img src="img/hero/hero-img-1.webp" alt="Illustration of Steven Dow" class="img-fluid image-border"/>
+            <div class="col-md-5 col-lg-4 col-xl-4">
+              <picture>
+                <source srcset="./img/hero/hero-img-1.webp" type="image/webp">
+                <source srcset="./img/hero/hero-img-1.jpg" type="image/jpeg"> 
+                <img src="./img/hero/hero-img-1.jpg" alt="Illustration of Steven Dow" class="img-fluid image-border">
+              </picture>
             </div>
           </div>
         </div>
@@ -59,69 +64,83 @@
 
     <!-- Main  -->
     <main>
-
     <!-- intro section -->
     <section class="py-5">
-        <div class="container py-5">
+        <div class="container">
           <div class="row">
             <div class="col">
               <h3 class="lead">Steven A. R. Dow.</h3>
-              <h1 class="display-3 pb-3 font-weight-bold">Experience<br />Architect<span class="text-red">.</span></h1>
-              </div>
+              <h1 class="pb-3">Experience<br />Architect<span class="text-red">.</span></h1>
+            </div>
           </div>
           <div class="row font-weight-light">
-            <div class="col-md-6 col-lg-4 col-xl-4 pb-3">
-              <p class="pb-3">
+            <div class="col-md-6 col-lg-4 col-xl-4">
+              <p>
                 I'm a multidisciplinary Designer focussed on UX, UI and product design with more than twenty years of design experience.
               </p>
-              <p class="pb-3">
+              <p>
                 I partner with teams around the globe and lead design engagements for fortune 500 companies ranging from single app design to enterprise-scale implementation, creating unique customer experiences for millions of users.
               </p>
               <p>
                 I’m able to bring a concept through the entire design lifecycle, from conceptualization through implementation. I always make sure my concepts and design solutions are well thought through, and based on thorough research.
               </p>
             </div>
-            <div class="col-md-6 col-lg-4 col-xl-4 pb-3">
-              <p class="pb-3">
+            <div class="col-md-6 col-lg-4 col-xl-4">
+              <p>
                 I keep abreast with the latest developments in design and technology. I feel most comfortable working with diverse and multicultural teams, but I am also effective and efficient on my own. I have a strong attention to detail, alongside the abilities to listen effectively, work as a team, and I'm strong at aligning with stakeholders.
               </p>
             </div>
             <div class="col-md-6 col-lg-4 col-xl-4">
-              <img src="./img/hero/hero-img-3.webp" alt="Illustration of Steven Dow" class="img-fluid">
+              <picture>
+                <source srcset="./img/hero/hero-img-3.webp" type="image/webp">
+                <source srcset="./img/hero/hero-img-3-md.jpg" type="image/jpeg"> 
+                <img src="./img/hero/hero-img-3-md.jpg" alt="Illustration of Steven Dow" class="img-fluid">
+              </picture>
             </div>
           </div>
         </div>
     </section>
+    <!-- intro end  -->
 
     <!-- Testimonials -->
-    <section class="py-5 section-grey">
-      <div class="container py-5">
+    <section class="py-5">
+      <div class="container">
         <div class="row justify-content-start">
           <div class="col col-lg-7">
-            <h2 class="display-4 pb-5 font-weight-bold">What<br />others<br />say<span class="text-red">.</span></h2>
+            <h1 class="font-weight-bold">What<br>others<br>say<span class="text-red">.</span></h1>
             <blockquote class="blockquote py-5">
               <img src="img/testimonial/quote.svg" alt="" class="position-absolute quote-image"/>
               <div class="font-weight-light">
-                <p class="pb-2 intro position-relative">Steven took significant ownership of the tasks in his area - he clearly communicated his strengths (and weaknesses) leaned into discussions with the customer - did thorough research and came back with solid arguments and clear recommendation.</p>
-                <p>Steven was a great addition to the team - he quickly caught up to speed with our community product - and I especially
-                  liked there was no reluctance to deep dive into new areas for Steven.</p>
+                <p class="intro position-relative">
+                  Steven took significant ownership of the tasks in his area - he clearly communicated his strengths (and weaknesses) leaned into discussions with the customer - did thorough research and came back with solid arguments and clear recommendation.
+                </p>
+                <p>
+                  Steven was a great addition to the team - he quickly caught up to speed with our community product - and I especially
+                  liked there was no reluctance to deep dive into new areas for Steven.
+                </p>
                 </div>
-                <div class="pb-3">
+                <div class="pb-2">
                   <img src="img/testimonial/testimonial-1.webp" alt="Testimonial image 1" class="testimonial-image"/>
                 </div>
                 <div class="blockquote-footer">
-                  <p>Allan Hasgard<br /><span class="font-weight-light">Director, Technical Consulting at Salesforce</span></p>
+                  <p>Allan Hasgard<br><span class="font-weight-light">
+                    Director, Technical Consulting at Salesforce
+                  </span></p>
                 </div>
             </blockquote>
           </div>
         </div>
         <div class="row justify-content-end">
           <div class="col col-lg-7">
-            <blockquote class="blockquote py-5">
+            <blockquote class="blockquote py5">
               <img src="img/testimonial/quote.svg" alt="" class="position-absolute quote-image"/>
               <div class="font-weight-light">
-                <p class="pb-2 intro position-relative">Steven jumped into our project as a Visual Designer on short notice and delivered with vast speed and professionalism the smartphone app designs for Vodafone's Brand new XONE beta product drivexone.</p>
-                <p>He Art Directed the branding of the iPhone and Android app and a small team of three designers. Steven did an excellent job and became an essential part of the agile development team.</p>
+                <p class="intro position-relative">
+                  Steven jumped into our project as a Visual Designer on short notice and delivered with vast speed and professionalism the smartphone app designs for Vodafone's Brand new XONE beta product drivexone.
+                </p>
+                <p>
+                  He Art Directed the branding of the iPhone and Android app and a small team of three designers. Steven did an excellent job and became an essential part of the agile development team.
+                </p>
               </div>
               <div class="pb-3">
                 <img src="img/testimonial/testimonial-2.webp" alt="Testimonial image 2" class="testimonial-image"/>
@@ -134,17 +153,23 @@
         </div>
         <div class="row justify-content-start">
           <div class="col col-lg-7">
-            <blockquote class="blockquote py-5">
+            <blockquote class="blockquote pt-5">
               <img src="img/testimonial/quote.svg" alt="" class="position-absolute quote-image"/>
               <div class="font-weight-light">
-                <p class="pb-2 intro position-relative">You are a fantastic designer with the ability to make the user flows smoother and increasing usability. For the client UI/UX was one of the main topics, and we passed with success - You are really good at listening to the customer needs and also your colleagues, and you take the requirements seriously.</p>
-                <p>The client was a bit nervous in the beginning and wasn't sure we could deliver a proper solution, but with your politeness and experience, they changed their mind very quickly.</p>
+                <p class="intro position-relative">
+                  You are a fantastic designer with the ability to make the user flows smoother and increasing usability. For the client UI/UX was one of the main topics, and we passed with success - You are really good at listening to the customer needs and also your colleagues, and you take the requirements seriously.
+                </p>
+                <p>
+                  The client was a bit nervous in the beginning and wasn't sure we could deliver a proper solution, but with your politeness and experience, they changed their mind very quickly.
+                </p>
               </div>
               <div class="pb-3">
                 <img src="img/testimonial/testimonial-3.webp" alt="Testimonial image 3" class="testimonial-image"/>
               </div>
               <div class="blockquote-footer">
-                <p>Michael Roehr<br /><span class="font-weight-light">Services Program/Project Management - Director at Salesforce</span></p>
+                <p>Michael Roehr<br><span class="font-weight-light">
+                  Services Program/Project Management - Director at Salesforce
+                </span></p>
               </div>
             </blockquote>
           </div>
@@ -154,8 +179,8 @@
 
       <!-- Featured -->
       <section class="py-5">
-        <div class="container py-5">
-          <h2 class="pb-4 display-4 font-weight-bold">Featured<br />press &amp;<br />awards<span class="text-red">.</span></h2>
+        <div class="container">
+          <h1 class="pb-4 font-weight-bold">Featured<br />press &amp;<br />awards<span class="text-red">.</span></h1>
           <div class="row">
             <div class="col-6 col-md-4 col-lg-3">
               <img src="img/featured-awards/featured-awards-1.jpg" alt="feautured logo 1" class="img-fluid py-3"/>
@@ -188,9 +213,9 @@
 
       <!-- Footer -->
       <footer class="py-5">
-        <div class="container py-5">
+        <div class="container">
           <div class="row">
-            <h2 class="pb-3 display-4 font-weight-bold col-md-4">Say<br />hello<span class="text-red">.</span></h2>
+            <h1 class="pb-3 font-weight-bold col-md-4">Say<br />hello<span class="text-red">.</span></h1>
             <ul class="col-md-4">
               <li>
                 <a href="mailto:thefamousunknown@gmail.com?subject=Nice%20website&body=Hi%20Steven,%20Let's%20grab%20a%20coffee.">info@stevendow.nl</a><span class="sr-only">Opens mail application</span>

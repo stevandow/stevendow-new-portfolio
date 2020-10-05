@@ -28,73 +28,91 @@
   <title>About me</title>
 </head>
   <body>
-    <header class="background-green hero what">
+
+    <!-- header -->
+    <header class="background-green hero hero-bg-img-what">
       <nav class="navbar">
-        <a class="navbar-brand mx-auto" href="index.html"><img src="img/logo.svg" alt="Logo of Steven Dow"></a>
+        <a class="navbar-brand mx-auto" href="index.html"><img src="img/logo.svg" alt="Logo of Steven Dow"
+        /></a>
       </nav>
+      <!-- header end -->
+
       <!-- hero section -->
       <section class="py-5">
-        <div class="container pb-5">
-          <div class=" row">
-            <ul class="nav flex-column col-sm-5 col-md-4 col-lg-3 col-xl-3 pb-4">
+        <div class="container">
+          <div class="row pb-5">
+            <ul class="nav flex-column col-sm-5 col-md-4 col-lg-3 col-xl-3 pb-2">
               <li class="nav-item">
-              <a class="nav-link" href="index.html" >Who.</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="#">What<span class="text-green">.</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="work.html">Work.</a>
-            </li>
-          </ul>
-          <div class="col-md-5 col-lg-4 col-xl-4 pb-5">
-            <img src="img/hero/hero-img-2.webp" alt="Illustration of Steven Dow" class="img-fluid image-border">
+                <a class="nav-link" href="index.html">Who.</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">What<span class="text-green">.</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="work.html">Work.</a>
+              </li>
+            </ul>
+            <div class="col-md-5 col-lg-4 col-xl-4">
+              <picture>
+                <source srcset="./img/hero/hero-img-2.webp" type="image/webp">
+                <source srcset="./img/hero/hero-img-2.jpg" type="image/jpeg"> 
+                <img src="./img/hero/hero-img-2.jpg" alt="Illustration of Steven Dow" class="img-fluid image-border">
+              </picture>
             </div>
           </div>
         </div>
-      </section>      
+      </section>
     </header>
-    <main>      
-      
+    <!-- Hero section end -->
+    <main>
       <!-- Skills -->
       <section class="py-5">
-        <div class="container py-5">
+        <div class="container">
           <div class="row">
             <div class="col">
-              <h1 class="display-3 pb-3 font-weight-bold">Skills<span class="text-green">.</span></h1>
+              <h1 class="pb-3">Skills<span class="text-green">.</span></h1>
             </div>
           </div>
           <div class="row font-weight-light">
-            <div class="col-md-6 col-lg-4 col-xl-4 pb-3">
-              <p class="pb-3">
-                <span class="lead font-weight-bold">Soft skills.</span><br>Empathic, creative, active listener, autodidact, fast learner, great collaborator, good communicator, hands-on, highly detailed and structured, highly adaptable, humour, problem solver, self-motivated, Stakholder management, authentic, strategic thinking. 
-              </p>
-              <p class="pb-3">
-                <span class="lead font-weight-bold">Research.</span><br>User research &amp; synthesis, user testing, usability testing, UX benchmarking, heuristic evaluation, competitive & comparative analysis, user interviews, field studies, competitive and comparative analysis.
-              </p>
-              <p>
-                <span class="lead font-weight-bold">Development.</span><br>HTML, CSS, JavaScript, WordPress
-              </p>
+            <div class="col-md-6 col-lg-4 col-xl-4">
+              <h4>Soft skills.</h4>
+                <p>
+                  Empathic, creative, active listener, autodidact, fast learner, great collaborator, good communicator, hands-on, highly detailed and structured, highly adaptable, humour, problem solver, self-motivated, Stakholder management, authentic, strategic thinking.
+                </p>
+              <h4>Research.</h4>
+                <p>
+                  User research &amp; synthesis, user testing, usability testing, UX benchmarking, heuristic evaluation, competitive & comparative analysis, user interviews, field studies, competitive and comparative analysis.
+                </p>
+              <h4>Development.</h4>
+                <p>
+                  HTML, CSS, JavaScript, WordPress.
+                </p>
             </div>
-            <div class="col-md-6 col-lg-4 col-xl-4 pb-3">
-              <p class="pb-3">
-                <span class="lead font-weight-bold">Design.</span><br>Personas, user journeys, customer journeys, wireframes, rapid prototyping, low & high fidelity prototyping, storyboarding, lean UX, branding, logo design, style guides, illustration, user interface design, animation, video cut/compositing, typography, interaction design, iconography, imagery, print design, Flow charts, diagrams, Information architecture, brand & design system development.
+            <div class="col-md-6 col-lg-4 col-xl-4">
+                <h4>Design.</h4>
+                <p>
+                  Personas, user journeys, customer journeys, wireframes, rapid prototyping, low & high fidelity prototyping, storyboarding, lean UX, branding, logo design, style guides, illustration, user interface design, animation, video cut/compositing, typography, interaction design, iconography, imagery, print design, Flow charts, diagrams, Information architecture, brand & design system development.
               </p>
-              <p class="pb-3">
-                <span class="lead font-weight-bold">Tools.</span><br>Sketch, Figma, Zeplin, Invision, Axure, Git, Visual Studio Code,  Balsamiq, Invison, Omnigraffle, LucidChart, Balsamiq, Adobe CC Suite.
+                <h4>Tools.</h4>
+                <p>
+                  Sketch, Figma, Zeplin, Invision, Axure, Git, Visual Studio Code,  Balsamiq, Invison, Omnigraffle, LucidChart, Balsamiq, Adobe CC Suite.
               </p>
             </div>
             <div class="col-md-6 col-lg-4 col-xl-4">
-              <img src="./img/hero/hero-img-1.webp" alt="" class="img-fluid">
+              <picture>
+                <source srcset="./img/hero/hero-img-1.webp" type="image/webp">
+                <source srcset="./img/hero/hero-img-1.jpg" type="image/jpeg"> 
+                <img src="./img/hero/hero-img-1.jpg" alt="Illustration of Steven Dow" class="img-fluid">
+              </picture>
             </div>
           </div>
         </div>
     </section>
 
     <!-- Clients -->
-    <section class="py-5 section-grey">
-      <div class="container py-5">
-        <h2 class="pb-4 display-4 font-weight-bold">My<br>clients<br>include<span class="text-green">.</span></h2>
+    <section class="py-5">
+      <div class="container">
+        <h1 class="pb-4">My<br>clients<br>include<span class="text-green">.</span></h1>
         <div class="row">
           <div class="col-6 col-md-4 col-lg-3 pb-4">
             <img src="img/client-logo/client-logo-1.jpg" alt="client logo 1" class="img-fluid">
@@ -136,66 +154,68 @@
       </div>
     </section>
 
-      <!-- Testimonials -->
-      <section class="py-5">
-        <div class="container py-5">
-          <div class="row justify-content-start">
-            <div class="col col-lg-7">
-              <h2 class="display-4 pb-5 font-weight-bold">What<br>others<br>say<span class="text-green">.</span></h2>
-              <blockquote class="blockquote py-5">
-                <img src="img/testimonial/quote.svg" alt="" class="position-absolute quote-image">
-                  <p class="pb-2 intro position-relative font-weight-light">
-                    Steven did incredible work building the Micro Services Site, leading to excellent brand recognition and value for our team. He showed an entrepreneurial spirit and drive.
-                  </p>
-                <div class="pb-3">
-                  <img src="img/testimonial/testimonial-5.jpg" alt="Testimonial image 1" class="testimonial-image">
-                </div>
-                <div class="blockquote-footer">
-                  <p>
-                    AJ Kiefer<br><span class="font-weight-light">VP, Regional Services at Salesforce </span>
-                  </p>
-                </div>
-              </blockquote>
-              </div>
-          </div>
-          <div class="row justify-content-end">
-            <div class="col col-lg-7">
-              <blockquote class="blockquote py-5 font-weight-light">
-                <img src="img/testimonial/quote.svg" alt="" class="position-absolute quote-image">
-                <p class="pb-2 intro position-relative">
-                  I got to know Steven as a very ingenious UI conceptor and an amazingly fast visual designer. He is also a great guy to have on the team. 
+    <!-- Testimonials -->
+    <section class="py-5">
+      <div class="container">
+        <div class="row justify-content-start">
+          <div class="col col-lg-7">
+            <h1 class="font-weight-bold">What<br>others<br>say<span class="text-red">.</span></h1>
+            <blockquote class="blockquote py-5">
+              <img src="img/testimonial/quote.svg" alt="" class="position-absolute quote-image"/>
+              <div class="font-weight-light">
+                <p class="intro position-relative">
+                  Steven did incredible work building the Micro Services Site, leading to excellent brand recognition and value for our team. He showed an entrepreneurial spirit and drive.
                 </p>
-                <div class="pb-3">
-                  <img src="img/testimonial/testimonial-4.jpg" alt="Testimonial image 2" class="testimonial-image">
+                </div>
+                <div class="pb-2">
+                  <img src="img/testimonial/testimonial-5.jpg" alt="Testimonial image 1" class="testimonial-image"/>
                 </div>
                 <div class="blockquote-footer">
-                  <p>
-                    Fabian Nehne<br><span class="font-weight-light">Design Director – HUAWEI</span>
-                  </p>
+                  <p>AJ Kiefer<br><span class="font-weight-light">
+                    VP, Regional Services at Salesforce.
+                  </span></p>
                 </div>
-              </blockquote>
-              </div>
-          </div>
-          <div class="row justify-content-start">
-            <div class="col col-lg-7">
-              <blockquote class="blockquote py-5 font-weight-light">
-                <img src="img/testimonial/quote.svg" alt="" class="position-absolute quote-image">
-                <p class="pb-2 intro position-relative font-weight-light">
-                  Steven was a great addition to our team. He is a seasoned designer with a good eye for effective design solutions. He always delivered high-quality work on time, and all his concepts were well thought through. It was a pleasure to work with him.
-                </p>
-                <div class="pb-3">
-                  <img src="img/testimonial/testimonial-7.jpg" alt="Testimonial image 3" class="testimonial-image">
-                </div>
-                <div class="blockquote-footer">
-                  <p>
-                    Lennart Hennigs<br><span class="font-weight-light">User Experience Lead – LeanIX</span>
-                  </p>
-                </div>
-              </blockquote>
-              </div>
+            </blockquote>
           </div>
         </div>
-      </section>
+        <div class="row justify-content-end">
+          <div class="col col-lg-7">
+            <blockquote class="blockquote py5">
+              <img src="img/testimonial/quote.svg" alt="" class="position-absolute quote-image"/>
+              <div class="font-weight-light">
+                <p class="intro position-relative">
+                  I got to know Steven as a very ingenious UI conceptor and an amazingly fast visual designer. He is also a great guy to have on the team. 
+                </p>
+              </div>
+              <div class="pb-3">
+                <img src="img/testimonial/testimonial-4.jpg" alt="Testimonial image 2" class="testimonial-image"/>
+              </div>
+              <div class="blockquote-footer">
+                <p>Fabian Nehne<br /><span class="font-weight-light">Design Director – HUAWEI</span></p>
+              </div>
+            </blockquote>
+          </div>
+        </div>
+        <div class="row justify-content-start">
+          <div class="col col-lg-7">
+            <blockquote class="blockquote pt-5">
+              <img src="img/testimonial/quote.svg" alt="" class="position-absolute quote-image"/>
+              <div class="font-weight-light">
+                <p class="intro position-relative">
+                  Steven was a great addition to our team. He is a seasoned designer with a good eye for effective design solutions. He always delivered high-quality work on time, and all his concepts were well thought through. It was a pleasure to work with him.
+                </p>
+              </div>
+              <div class="pb-3">
+                <img src="img/testimonial/testimonial-7.jpg" alt="Testimonial image 3" class="testimonial-image"/>
+              </div>
+              <div class="blockquote-footer">
+                Lennart Hennigs<br><span class="font-weight-light">User Experience Lead – LeanIX</span>
+              </div>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+    </section>
 
       <!-- Back to top -->
       <button id="back-to-top" href="#" class="back-to-top" type="button">
@@ -208,9 +228,9 @@
 
     <!-- Footer -->
       <footer class="py-5">
-        <div class="container py-5">
+        <div class="container">
           <div class=" row">
-            <h2 class="pb-3 display-4 font-weight-bold col-md-4">
+            <h2 class="pb-3 col-md-4">
               Say<br>hello
               <span class="text-green">.</span>
             </h2>  
