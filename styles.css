@@ -41,17 +41,12 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-	line-height: 1.1;
+	font-size: 3.5rem;
+	line-height: 1.2;
 }
 
 h2 {
 	line-height: 1;
-}
-
-/* padding  */
-
-.pb-6 {
-	padding-bottom: 5.5rem;
 }
 
 /* case-study  */
@@ -243,46 +238,33 @@ footer ul {
 
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 375px) {
-	.home, .what, .work {
+	.hero {
 		background-size: 25rem;
 	}
 }
 
 @media (min-width: 414px) {
-	.home, .what, .work {
-		background-size: 35rem;
-	}
-	.hero {
-		height: auto;
-	}
 }
 
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-	.home, .what, .work {
-		background-size: 40rem;
-	}
 	.hero {
-		height: 80vh;
+		background-size: 30rem;
+		height: 55vh;
 	}
 }
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
-	.home, .what, .work {
-		background-size: 45rem;
-	}
 	.hero {
-		height: 80vh;
+		background-size: 40rem;
 	}
 }
 
 /* // Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
-	.home, .what, .work {
-		background-size: 50rem;
-	}
 	.hero {
-		height: 100vh;
+		height: 80vh;
+		background-size: 50rem;
 	}
 }
