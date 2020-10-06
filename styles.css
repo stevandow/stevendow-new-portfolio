@@ -269,8 +269,16 @@ footer ul {
 	.hero {
 		height: 80vh;
 	}
-	.hero-bg-img-work, .hero-bg-img-what, .hero-bg-img-who {
+	.hero-bg-img-work {
+		background-size: 55rem;
+		background-position: right -44px bottom -18px;
+	}
+	.hero-bg-img-what {
+		background-size: 55rem;
+		background-position: right -48px bottom -18px;
+	}
+	.hero-bg-img-who {
 		background-size: 50rem;
-		background-position: right -20px bottom -10px;
+		background-position: right -50px bottom -20px;
 	}
 }
