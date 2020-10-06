@@ -22,7 +22,7 @@ a:hover {
 	transition: .2s ease-in-out;
 }
 
-p, a {
+p, a, ul{
 	font-size: 1.25rem;
 	margin: 0;
 }
@@ -30,6 +30,10 @@ p, a {
 ::-moz-selection { /* Code for Firefox */
 	color: #ffffff;
 	background: #E94949;
+}
+
+ul {
+	padding-left: 1rem;
 }
 
 ::selection {
@@ -42,19 +46,12 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-	font-size: 3.5rem;
+	font-size: 2.9rem;
 	line-height: 1.2;
 }
 
 h3 {
 	line-height: 0.5;
-}
-
-/* case-study  */
-.case-study-hero-img-1 {
-	background-image: url(./img/case-study/case-study-1-hero-img.webp);
-	background-repeat: no-repeat;
-	background-size: cover;
 }
 
 /* Intro  */
@@ -129,17 +126,16 @@ h3 {
 /* Hero */
 .hero {
 	height: auto;
+	background-repeat: no-repeat;
 	}
 
-.hero {
-	background-position: right -20px bottom -10px;
-	background-repeat: no-repeat;
+.hero-bg-img-who, .hero-bg-img-what, .hero-bg-img-work {
 	background-size: 23rem;
+	background-position: right -20px bottom -10px;
 }
 
 .hero-bg-img-who {
 	background-image: url(./img/hero/hero-bg-img-who.svg);
-	display: non;
 }
 
 .hero-bg-img-what {
@@ -148,6 +144,11 @@ h3 {
 
 .hero-bg-img-work {
 	background-image: url(img/hero/hero-bg-img-work.svg);
+}
+
+.hero-bg-img-case-study-1 {
+	background-image: url(./img/case-study/case-study-1-hero-img.webp);
+	background-size: cover;
 }
 
 .background-red {
@@ -240,8 +241,9 @@ footer ul {
 
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 375px) {
-	.hero {
+	.hero-bg-img-work, .hero-bg-img-what, .hero-bg-img-who {
 		background-size: 25rem;
+		background-position: right -20px bottom -10px;
 	}
 }
 
@@ -251,22 +253,25 @@ footer ul {
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 	.hero {
-		background-size: 30rem;
 		height: 55vh;
+	}
+	.hero-bg-img-work, .hero-bg-img-what, .hero-bg-img-who {
+		background-size: 30rem;
+		background-position: right -20px bottom -10px;
 	}
 }
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
-	.hero {
-		background-size: 40rem;
-	}
 }
 
 /* // Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
 	.hero {
 		height: 80vh;
+	}
+	.hero-bg-img-work, .hero-bg-img-what, .hero-bg-img-who {
 		background-size: 50rem;
+		background-position: right -20px bottom -10px;
 	}
 }
