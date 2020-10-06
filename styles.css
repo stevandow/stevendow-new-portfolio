@@ -125,7 +125,7 @@ h3 {
 
 /* Hero */
 .hero {
-	height: 100vh;
+	height: auto;
 	background-repeat: no-repeat;
 	}
 
