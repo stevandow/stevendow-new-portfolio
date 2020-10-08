@@ -265,7 +265,7 @@ footer ul {
 		background-position: right -20px bottom -10px;
 	}
 	.hero-bg-img-case-study-1 {
-		background-image: url(img/case-study/case-study-1-hero-bg-img-lg.jpg);
+		background-image: url(./img/case-study/case-study-1-hero-bg-img-md.jpg);
 	}
 	.hero-header {
 		font-size: 4.5rem;
@@ -275,7 +275,7 @@ footer ul {
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
 	.hero-bg-img-case-study-1 {
-		background-image: url(img/case-study/case-study-1-hero-bg-img-lg.jpg);
+		background-image: url(./img/case-study/case-study-1-hero-bg-img-lg.jpg);
 	}
 	.hero-header {
 		font-size: 5.5rem;
@@ -300,6 +300,6 @@ footer ul {
 		background-position: right -50px bottom -20px;
 	}
 	.hero-bg-img-case-study-1 {
-		background-image: url(img/case-study/case-study-1-hero-bg-img-xl.jpg);
+		background-image: url(./img/case-study/case-study-1-hero-bg-img-xl.jpg);
 	}
 }
