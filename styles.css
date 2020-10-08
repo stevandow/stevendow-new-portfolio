@@ -49,9 +49,14 @@ h1 {
 	font-size: 2.9rem;
 	line-height: 1.2;
 }
+h2 {
+	font-size: 2rem;
+	line-height: 1.2;
+}
 
 h3 {
-	line-height: 0.5;
+	font-size: 1.5rem;
+	line-height: 1.1;
 }
 
 /* Intro  */
@@ -124,14 +129,14 @@ h3 {
 }
 
 /* Hero */
-.hero {
-	height: auto;
-	background-repeat: no-repeat;
-	}
+.vh100 {
+	height: 100vh;
+}
 
 .hero-bg-img-who, .hero-bg-img-what, .hero-bg-img-work {
 	background-size: 23rem;
 	background-position: right -20px bottom -10px;
+	background-repeat: no-repeat;
 }
 
 .hero-bg-img-who {
@@ -152,6 +157,7 @@ h3 {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 .background-red {
@@ -166,7 +172,7 @@ h3 {
 	background-color: #499CE9;
 }
 
-.image-border {
+.img-border {
 	border: 9px solid #ffffff; 
 }
 
@@ -258,6 +264,9 @@ footer ul {
 		background-size: 30rem;
 		background-position: right -20px bottom -10px;
 	}
+	.hero-bg-img-case-study-1 {
+		background-image: url(img/case-study/case-study-1-hero-bg-img-md.jpg);
+	}	
 }
 
 /* // Large devices (desktops, 992px and up) */
