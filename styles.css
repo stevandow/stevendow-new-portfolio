@@ -46,7 +46,7 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-	font-size: 2.9rem;
+	font-size: 2.7rem;
 	line-height: 1.2;
 }
 h2 {
@@ -266,11 +266,20 @@ footer ul {
 	}
 	.hero-bg-img-case-study-1 {
 		background-image: url(img/case-study/case-study-1-hero-bg-img-md.jpg);
-	}	
+	}
+	.hero-header {
+		font-size: 4.5rem;
+	}
 }
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
+	.hero-bg-img-case-study-1 {
+		background-image: url(img/case-study/case-study-1-hero-bg-img-lg.jpg);
+	}
+	.hero-header {
+		font-size: 5.5rem;
+	}
 }
 
 /* // Extra large devices (large desktops, 1200px and up) */
@@ -289,5 +298,8 @@ footer ul {
 	.hero-bg-img-who {
 		background-size: 50rem;
 		background-position: right -50px bottom -20px;
+	}
+	.hero-bg-img-case-study-1 {
+		background-image: url(img/case-study/case-study-1-hero-bg-img-xl.jpg);
 	}
 }
