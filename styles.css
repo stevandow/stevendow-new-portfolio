@@ -12,9 +12,12 @@ html, body {
 	transition: .3s ease-in-out;
 }
 
+.text-underline {
+	text-decoration: underline;
+}
+
 a {
 	color: #212529;
-	text-decoration: underline;
 }
 
 a:hover {
