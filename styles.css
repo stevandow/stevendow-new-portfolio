@@ -293,7 +293,7 @@ footer ul {
 		font-size: 4.5rem;
 	}
 	.medium {
-		font-size: .9rem;
+		font-size: .8rem;
 	}
 }
 
@@ -303,7 +303,7 @@ footer ul {
 		background-image: url(./img/case-study/case-study-1-hero-bg-img-lg.jpg);
 	}
 	.medium {
-		font-size: 1rem;
+		font-size: .9rem;
 	}
 }
 
@@ -334,6 +334,6 @@ footer ul {
 		font-size: 5.5rem;
 	}
 	.medium {
-		font-size: 1.1rem;
+		font-size: 1rem;
 	}
 }
