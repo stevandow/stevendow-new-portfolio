@@ -313,14 +313,11 @@ h3 {
 
 .work {
   background-color: var(--bg-blue);
+  background-image: url(hero-bg-img-work.4b15c010.svg);
 }
 
 .logo {
   fill: var(--logo);
-}
-
-.view-height {
-  height: 100vh;
 }
 
 .home, .about, .work {
@@ -329,17 +326,14 @@ h3 {
   background-repeat: no-repeat;
 }
 
-.work {
-  background-image: url(hero-bg-img-work.4b15c010.svg);
-}
-
-.hero-bg-img-case-study-1 {
+.case-study {
   background-image: url(case-study-1-hero-bg-img.2f1765a3.jpg);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   background-repeat: no-repeat;
+  height: 100vh;
 }
 
 .img-border {
@@ -354,12 +348,12 @@ h3 {
     height: auto;
   }
 
-  .hero-bg-img-case-study-1 {
+  .case-study {
     background-position: center center;
   }
 }
 @media (min-width: 414px) {
-  .hero-bg-img-case-study-1 {
+  .case-study {
     background-image: url(case-study-1-hero-bg-img-568.336f4730.jpg);
     background-position: center bottom;
   }
@@ -379,7 +373,7 @@ h3 {
     background-position: right -20px bottom -10px;
   }
 
-  .hero-bg-img-case-study-1 {
+  .case-study {
     background-image: url(case-study-1-hero-bg-img-md.1d5c8390.jpg);
     background-position: center bottom;
   }
@@ -390,15 +384,12 @@ h3 {
 }
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-  .hero-bg-img-case-study-1 {
+  .case-study {
     background-image: url(case-study-1-hero-bg-img-lg.7e25c773.jpg);
   }
 }
 /* // Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-  .view-height {
-    height: 100vh;
-  }
 
   .work {
     background-size: 55rem;
@@ -415,7 +406,7 @@ h3 {
     background-position: right -50px bottom -20px;
   }
 
-  .hero-bg-img-case-study-1 {
+  .case-study {
     background-image: url(case-study-1-hero-bg-img-xl.e7820ac3.jpg);
   }
 
